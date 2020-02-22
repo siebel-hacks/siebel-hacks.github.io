@@ -1,3 +1,55 @@
+/* https://cssgradient.io/ */
+html {
+  font-size: 22px;
+
+
+  background: rgb(167,179,238);
+  background: linear-gradient(0deg, rgba(167,179,238,1) 30%, rgba(255,182,24,1) 100%);
+  /* background: rgb(255,237,79); */
+  /* background: linear-gradient(90deg, rgba(255,237,79,1) 0%, rgba(221,140,44,1) 33%, rgba(0,179,255,1) 100%); */
+  /* background: rgb(238,174,202); */
+  /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+}
 body {
-  background-color: pink;
+  /* background-color: orange; */
+  font-family: 'Source Code Pro', monospace, AppleGothic, sans-serif;
+
+}
+
+/* https://www.w3schools.com/css/css_list.asp */
+li {
+  color: blue;
+  list-style-type: decimal-leading-zero;
+}
+
+.todo {
+  color: red;
+}
+
+.container1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 33%;
+}
+
+.center {
+  width: 33%
+}
+
+.right {
+  width: 33%;
+}
+
+.code {
+  font-family: 'Source Code Pro', monospace, AppleGothic, sans-serif;
+}
+
+#rules {
+  font-size: 32px;
+  /* color: black; */
 }
